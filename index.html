@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> < Codifica Softwares /></title>
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- fontes do Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- font awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- seção Principal de Vídeo e Cabeçalho -->
+<div class="video-hero"> 
+    <!-- container do vídeo de fundo -->
+    <div class="video-fundo"> 
+        <video class="video-bg" width="1800" height="700" preload="auto" loop autoplay muted playsinline>
+            <source src="https://espresso-labs.com/wp-content/uploads/2022/09/HEADER_ESPRESSO_v3.mp4" type="video/mp4">
+        </video>
+        <div class="video-camada"></div>
+    </div>
+
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+        <div class="container-fluid">
+            <!-- Logo da marca -->
+            <a class="navbar-brand logo-brand" href="#">
+                <span class="logo-text">< Codifica Software /></span>
+            </a>
+            
+            <!--Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    
+                    <li class="nav-item"><a class="nav-link active" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Soluções</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#metodologia">Processo</a></li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="trespaginas/about.html">História</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trespaginas/services.html">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trespaginas/nossotime.html">Nossa equipe</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Títulos na frente do vídeo -->
+    <div class="titulo-video">
+        <h1 class="titulo">beyond</h1>
+        <h2 class="subtitulo">great software design apps ideas</h2>
+        <!-- botão de chamada para ação  -->
+        <a href="trespaginas/about.html" class="btn btn-hero rounded-pill px-5 py-3 text-uppercase fw-bold">conheça</a>
+    </div>
+</div>
+
+<!--Introdução/Sobre -->
+<section class="secao-introducao py-5 bg-light" id="sobre">
+    <div class="container">
+        <!-- título principal da seção -->
+        <h2 class="display-5 fw-light text-center secao-titulo">
+            Solucionamos desafios de organizações por meio da 
+            <span class="fw-bold texto-destaque">tecnologia</span> e do 
+            <span class="fw-bold texto-destaque">design</span> 
+            transformando ideias em plataformas digitais completas.
+        </h2>
+    </div>
+</section>
+
+<!-- Seção 2: Metas/Missão -->
+<div class="secao-metas py-5">
+    <div class="container text-center">
+        <h3 class="fw-light titulo-missao">
+            Nosso objetivo é transformar sua 
+            <span class="fw-bold texto-destaque">ideia</span> em 
+            <span class="fw-bold texto-destaque">realidade</span>.
+        </h3>
+    </div>
+</div>
+
+<!-- Seção 3: Relatos/Testemunhos -->
+<section class="secao-relatos py-5 bg-light">
+    <div class="container">
+        <div class="row">
+    
+            <div class="col-lg-6 mb-4">
+                <!-- Bloco de citação com sombra e borda customizada -->
+                <blockquote class="blockquote p-4 borda-custom bg-white shadow-sm rounded">
+                    <p class="mb-0 fs-5">"Com apenas uma idéia de inovação interna, a equipe da Faça me ajudou do começo ao fim. Contribuíram com sugestões interessantes e desenvolveram o projeto muito mais rápido do que esperávamos".</p>
+                </blockquote>
+            </div>
+            
+    
+            <div class="col-md-6 mb-4">
+                <blockquote class="blockquote p-4 borda-custom bg-white shadow-sm rounded">
+                    <p class="mb-0 fs-5">"A equipe atendeu a todas as exigências e prazos do projeto. Seu trabalho foi elogiado internamente e nos ajudou a melhorar a comunicação com nosso cliente final."</p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção 4: Produtos/Serviços -->
+<section class="secao-produtos py-5" id="servicos">
+    <div class="container-fluid">
+        <div class="row align-items-center g-0">
+            <!-- Bloco de texto dos produtos -->
+            <div class="col-lg-6 order-lg-2 d-flex align-items-center justify-content-center py-5">
+                <div class="produtos-texto ps-lg-5">
+            
+                    <h2 class="produtos-titulo">
+                        Soluções digitais<br>
+                        que geram resultados<br>
+                        concretos
+                    </h2>
+                </div>
+            </div>
+            <!-- Bloco da imagem do sistema -->
+            <div class="col-lg-6 order-lg-1 py-5" id="fotosistema">
+
+                <img src="imagens2/exemplosistema.png" alt="Exemplo de sistema desenvolvido pela empresa">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção 5: Metodologia/Fluxo de Trabalho -->
+<section class="fluxo-trabalho py-5" id="metodologia">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            
+            <!-- Botões do Carrossel -->
+            <div class="col-lg-3 coluna-navegacao-fluxo">
+                <div class="nav-items">
+                    <!-- Botão 1: Discovery -->
+                    <button class="nav-item active" data-slide="0">
+                        <span class="nav-label">Product</span>
+                        <span class="nav-label">Discovery</span>
+                    </button>
+                    <!-- Botão 2: Delivery -->
+                    <button class="nav-item" data-slide="1">
+                        <span class="nav-label">Product</span>
+                        <span class="nav-label">Delivery</span>
+                    </button>
+                    <!-- Botão 3: Evolution -->
+                    <button class="nav-item" data-slide="2">
+                        <span class="nav-label">Product</span>
+                        <span class="nav-label">Evolution</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Conteúdo do Carrossel -->
+            <div class="col-lg-9 carrosel-fluxo">
+                <div class="carrosel-container">
+                    
+                    <!-- Slide 1: Discovery -->
+                    <div class="carrosel-slide active" data-index="0">
+                    
+                        <div class="diagrama">
+                
+                            <img id="foto1"  src="imagens2/discovery2.png" alt="Diagrama da fase de Product Discovery"> 
+                        </div>
+                       
+                        <div class="texto-explicacao">
+                            <p>
+                                A Descoberta de Produto é a primeira etapa da nossa jornada de desenvolvimento de Produtos Digitais. 
+                                Nessa fase, nosso principal objetivo é identificar a melhor solução para os usuários, levando em consideração 
+                                os objetivos do negócio, as necessidades dos usuários e as limitações tecnológicas.
+                            </p> 
+                        </div>
+                    </div>
+
+                    <!-- Slide 2: Delivery -->
+                    <div class="carrosel-slide" data-index="1">
+                        
+                        <div class="diagrama">
+                            <img id="foto2" src="imagens2/road2.png" alt="Diagrama do Roadmap e Entrega"> 
+                        </div>
+                        <div class="texto-explicacao">
+                             <p>
+                                Durante esta etapa, construímos um roadmap de implementação de funcionalidades que reduz riscos e aumenta a taxa de sucesso do projeto, ao mesmo tempo em que fornece uma análise abrangente de concorrentes e do mercado.
+                            </p> 
+                        </div>
+                    </div>
+
+                    <!-- Slide 3: Evolution -->
+                    <div class="carrosel-slide" data-index="2">
+                        
+                        <div class="diagrama">
+                            <img id="foto3" src="imagens2/pessoas.png" alt="Diagrama da fase de Evolução e Monitoramento">
+                        </div>
+                        <div class="texto-explicacao">
+                            <p>
+                                Após o lançamento, o produto digital requer manutenção e monitoramento constantes para compreender seu desempenho e a interação dos usuários. Novas demandas por funcionalidades e oportunidades de otimização surgem continuamente.
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Seção 6: Contato/Formulário -->
+<section class="secao-contato py-5" id="contato">
+    <br><br>
+    <br>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+
+                <h2 class="titulo-contato text-center mb-4">
+                    Vamos conversar sobre seu projeto
+                </h2>
+
+                <form id="formulario" class="contact-form">
+                    <div class="mb-3">
+                        <input type="text" name="name" class="form-control" placeholder="Seu nome" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" name="email" class="form-control" placeholder="Seu e-mail" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <textarea name="message" class="form-control" rows="4" placeholder="Conte sobre sua ideia" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn contact-btn w-100">
+                        Enviar mensagem
+                    </button>
+
+                    <p class="mensagemdeucerto mt-3" style="display: none;">Mensagem enviada com sucesso!</p>
+                    <p class="mensagemdeuerrado mt-3" style="display: none;">Erro ao enviar. Tente novamente.</p>
+                </form>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Rodapé -->
+<footer class="rodape py-5 bg-dark text-white">
+    <div class="container">
+        <div class="row">
+            
+            <!-- Informações de Contato - Brasil -->
+            <div class="col-md-6 mb-4">
+                <h4 class="text-uppercase mb-4 fw-bold">BRAZIL </h4>
+                <p class="text-muted">Rua das Almas Penadas, 616</p>
+                <p class="text-muted">São Paulo, SP</p>
+                <p class="text-muted">
+
+                    <a  class="link-rodape">contato@codificasoftwares.com</a>
+                </p>
+                <p class="text-muted">+55 11 93030-6655</p>
+            </div>
+            
+            <!-- Informações de Contato - Europa -->
+            <div class="col-md-6 mb-4">
+                <h4 class="text-uppercase mb-4 fw-bold">EUROPE</h4>
+                <p class="text-muted">For international sales:</p>
+                <p class="text-muted">
+                    <a class="link-rodape">sales@codificasoftwares.com</a>
+                </p>
+            </div>
+        </div>
+
+        <hr class="my-4 border-secondary">
+
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="text-muted small mb-2">Inovação com responsabilidade acontece aqui</p>
+                
+                <!-- Ícones de Premiações/Certificações -->
+                <div class="d-flex mb-3 gap-3">
+                    <a href="#" class="link-rodape" title="Clutch">
+                        <i class="fas fa-award"></i> Clutch
+                    </a>
+                    <a href="#" class="link-rodape" title="Credential">
+                        <i class="fas fa-certificate"></i> Credential
+                    </a>
+                    <a href="#" class="link-rodape" title="GPTW">
+                        <i class="fas fa-star"></i> GPTW
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <!-- Links de Políticas -->
+                <a href="#" class="text-muted text-decoration-none me-3">Política de Privacidade</a>
+                <a href="#" class="text-muted text-decoration-none me-3">Termos de Uso</a>
+                
+                <!-- Ícones de Redes Sociais -->
+                <div class="d-inline-flex gap-2 social-icons">
+                    <a href="#" class="link-rodape" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="link-rodape" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="link-rodape" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="text-center mt-4">
+            <p class="text-muted small mb-0"> Codifica Softwares // Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Scripts JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- script do EmailJS - web service que utilizei -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+    // configuração do EmailJS.
+    // meu service id do emailjs
+    (function () {
+        emailjs.init("pE9B7KG_8g5GAMrDX");
+    })();
+
+    // Captura o envio do formulário de contato
+    document.getElementById("formulario").addEventListener("submit", function (e) {
+        e.preventDefault(); // Não deixa a página recarregar
+
+        // envia o formulário usando o serviço e template definidos
+        emailjs.sendForm(
+            "service_et0pb5e",
+            "template_5m2lbxr", //3cf6mnb
+            this // O próprio formulário
+        ).then(() => {
+            // Sucesso: mostra a mensagem de sucesso e esconde a de erro
+            document.querySelector(".mensagemdeucerto").style.display = "block";
+            document.querySelector(".mensagemdeuerrado").style.display = "none";
+            this.reset(); // Limpa os campos do formulário
+        }).catch((error) => {
+            // Erro: mostra a mensagem de erro.
+            console.error("Falha no envio do EmailJS:", error);
+            document.querySelector(".mensagemdeuerrado").style.display = "block";
+            document.querySelector(".mensagemdeucerto").style.display = "none";
+        });
+    });
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
